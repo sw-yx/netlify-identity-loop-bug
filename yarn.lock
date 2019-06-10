@@ -9126,17 +9126,17 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-netlify-identity-widget@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/react-netlify-identity-widget/-/react-netlify-identity-widget-0.1.1.tgz#9045f3633a7e8dd857445253f519f6aec1535860"
-  integrity sha512-+CfFvw04xNZbXZyvCi3FuH/8mg2bHT8JAhFwswBeqK54kD3Xq2uX0V367HvD1kRi3kvvDh+SufEMhYH4Np2l0w==
-  dependencies:
-    react-netlify-identity "^0.1.3"
-
-react-netlify-identity@^0.1.3:
+react-netlify-identity-widget@^0.1.3:
   version "0.1.3"
-  resolved "https://registry.yarnpkg.com/react-netlify-identity/-/react-netlify-identity-0.1.3.tgz#720dd09b52e2f07fa5195c01549cf633700fc0f7"
-  integrity sha512-1QW1d4ExRhoaemGyb3n5ual6rvonwgA2lnbp9Gm+j0jvpA7dUidpdjyqCEhEU0IZhaVn7ZzsHK5wMa6/TELs1w==
+  resolved "https://registry.yarnpkg.com/react-netlify-identity-widget/-/react-netlify-identity-widget-0.1.3.tgz#cdfa233445023f3e128e10148c4a3dd359712bfe"
+  integrity sha512-BoIJL1ZZ30N40Jq1wJlb+LrDD5PXZPqydgHYFT0/75lgI9+fIT+XBZsdjQT3G4SZKXNxs3M34RreY6YBMn22vA==
+  dependencies:
+    react-netlify-identity "^0.1.7"
+
+react-netlify-identity@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/react-netlify-identity/-/react-netlify-identity-0.1.7.tgz#68df92466fb59e8999f1a0792cdf88adc62baf62"
+  integrity sha512-RyVJq0iliTihTiQC8QGILf2/cSiJKo/lrLv3eMCGuEKWN35wy2LhyicpyPpnNWNNhtLL/FdKX/N+pY+ukPZAvg==
   dependencies:
     gotrue-js "^0.9.25"
     tsdx "^0.6.0"
