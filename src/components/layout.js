@@ -1,8 +1,8 @@
 import React from "react"
-import { useIdentityContext } from "react-netlify-identity-widget"
-
-// code split the modal til you need it!
-const IdentityModal = React.lazy(() => import("react-netlify-identity-widget"))
+import IdentityModal, {
+  useIdentityContext,
+} from "react-netlify-identity-widget"
+// react SSR doesnt support suspense yet
 
 const Layout = ({ children }) => {
   const identity = useIdentityContext()
@@ -26,12 +26,10 @@ const Layout = ({ children }) => {
         </button>
       </nav>
       <main>{children}</main>
-      <React.Suspense fallback="loading...">
-        <IdentityModal
-          showDialog={dialog}
-          onCloseDialog={() => setDialog(false)}
-        />
-      </React.Suspense>
+      <IdentityModal
+        showDialog={dialog}
+        onCloseDialog={() => setDialog(false)}
+      />
     </>
   )
 }
